@@ -1,0 +1,459 @@
+.topo{
+    background-color: #CF2B2B;
+    height: 92px;
+    box-shadow: 0px 0px 7px black;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 1;
+}
+
+.textos{
+    margin-top: 8px;
+    margin-left: 21px;
+}
+
+.textos > h1{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+    color: #ffffff;
+    
+}
+
+.textos > h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.cardapio{
+    background-color: #eeeeee;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    overflow-x: scroll;
+}
+
+.cardapio > h1{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    color: #333333;
+    margin-left: 17px;
+    margin-top: 31px;
+    margin-bottom: 17px;
+    
+}
+
+.opcoes1{
+    display: flex;
+    overflow-x: auto;
+}
+
+.opcoes1 > h1{
+    margin-top: 31px;
+}
+
+
+.opcoes2{
+    display: flex;
+    overflow-x: auto;
+}
+
+.opcoes2 > h1{
+    margin-top: 31px;
+}
+
+
+.opcoes3{
+    display: flex;
+    overflow-x: auto;
+}
+
+.opcoes3 > h1{
+    margin-top: 31px;
+}
+ 
+
+.carne, .frango, .calabresa{
+   background-color:#ffffff;
+   width: 172px;
+   height: 216px;
+   margin-left: 10px;
+   margin-bottom: 20px;
+   border-radius: 9px;
+}
+
+.coca, .fanta, .suco{
+    background-color:#ffffff;
+    width: 172px;
+    height: 216px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 9px;
+ }
+
+ .brownie, .mouse, .pudim{
+    background-color:#ffffff;
+    width: 172px;
+    height: 216px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 9px;
+ }
+
+.selecionado{
+   border: 5px solid #50D074;
+   height: 200px;
+}
+
+.nomePrato{
+    margin-top: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    size: 16px;
+    color: #333333;
+}
+
+.carne > h4, .frango > h4, .calabresa > h4, .coca > h4, .fanta > h4, .suco > h4, .brownie > h4, .mouse > h4, .pudim > h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    size: 16px;
+    color: #a6a6a6;
+    margin-top: 4px;
+}
+
+.preco{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    size: 16px;
+    color: #000000;
+    margin-top: 5px;
+}
+
+.nomePrato{
+    margin-left: 10px;
+}
+
+.preco{
+    margin-left: 10px;
+    display: flex;
+}
+
+.carne > h2, .carne > h4, .carne > h3{
+    margin-left: 10px;
+}
+
+.frango > h2, .frango > h4, .frango > h3{
+    margin-left: 10px;
+}
+
+.calabresa > h2, .calabresa > h4, .calabresa > h3{
+    margin-left: 10px;
+}
+
+.coca > h2, .coca > h4, .coca > h3{
+    margin-left: 10px;
+}
+
+.fanta > h2, .fanta > h4, .fanta > h3{
+    margin-left: 10px;
+}
+
+.suco > h2, .suco > h4, .suco > h3{
+    margin-left: 10px;
+}
+
+.brownie > h2, .brownie > h4, .brownie > h3{
+    margin-left: 10px;
+}
+
+.mouse > h2, .mouse > h4, .mouse > h3{
+    margin-left: 10px;
+}
+
+.pudim > h2, .pudim > h4, .pudim > h3{
+    margin-left: 10px;
+}
+
+
+.carne > img, .frango > img, .calabresa > img{
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    margin-top: 18px;
+    margin-left: 7px;
+    margin-right: 14px;
+}
+
+.coca > img, .fanta > img, .suco > img{
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    margin-top: 18px;
+    margin-left: 7px;
+    margin-right: 14px;
+}
+
+.brownie > img, .mouse > img, .pudim > img{
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
+    margin-top: 18px;
+    margin-left: 7px;
+    margin-right: 14px;
+}
+
+.inferior{
+    background-color: #ffffff;
+    height: 92px;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 1;
+}
+
+.ret{
+    background-color: #CBCBCB;
+    width: 364px;
+    height: 61px;
+    margin-top: 15px;
+    margin-left: 5px;
+    border-radius: 50px;
+    position:fixed ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.retfechar{
+    background-color: #32B72F;
+    width: 364px;
+    height: 61px;
+    margin-top: 15px;
+    margin-left: 5px;
+    border-radius: 50px;
+    position:fixed ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.esconderretfechar{
+    display: none;
+}
+
+.textoinf{
+    max-width: 200px;
+    margin-left: 20px
+
+}
+
+.textoinffechado{
+    max-width: 200px;
+    margin-left: 20px;
+    display: none;
+}
+
+.textoinf > h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.textoinffechadop > h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.escondido{
+    display: none;
+}
+
+.alinharfecharpedido{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEEEEE;
+}
+
+.fecharpedido{
+    margin-top: 700px;
+    width: 350px;
+    height: 353px;
+    background-color: #50D074;
+    display: flex;
+    z-index: 2;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 9px;
+}
+
+.descpedido{
+    margin-top: 21px;
+}
+
+.descpedido > h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.pratoseprecos{
+    margin-top: 28px;
+}
+
+.pratoepreco{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.prato{
+    margin-top: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.precop{
+    margin-top: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.precop{
+    align-items: right;
+}
+
+
+
+
+.bebidaeprecob{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bebida{
+    margin-top: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.precob{
+    margin-top: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.precob{
+    align-items: right;
+}
+
+
+
+
+.sobreepreco{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sobre{
+    margin-top: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.precoss{
+    margin-top: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.precoss{
+    align-items: right;
+}
+
+
+
+
+.total{
+    margin-top: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total > h3{
+    align-items: right;
+}
+
+.botaofecharpedido{
+    margin-top: 24px;
+    background-color: #ffffff;
+    width: 300px;
+    height: 50px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaofecharpedido > h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #50D074;
+}
+
+.cancelar{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}

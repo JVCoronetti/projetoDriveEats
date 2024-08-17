@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>DrivenEats</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    
+
+</head>
+<body>
+    <div class="esconderfecharPedido escondido">
+        <div class="alinharfecharpedido">
+            <div class="fecharpedido">
+                <div class="descpedido">
+                    <h1>Confirme seu Pedido</h1>
+                    <div class="pratoseprecos">
+
+
+                        <div class="pratoepreco">
+                            <div class="prato">prato</div>
+                            <div class="precop">preçop</div>
+                        </div>
+
+
+                        <div class="bebidaeprecob">
+                            <div class="bebida">bebida</div>
+                            <div class="precob">preçob</div>
+                        </div>
+                        
+
+                        <div class="sobreepreco">
+                            <div class="sobre">sobre</div>
+                            <div class="precoss">preçoss</div>
+                        </div>
+
+
+                    </div>
+                    
+                    <div class="total">
+                        <div class="TOTAL">TOTAL</div>
+                        <div class="precoTotal">preçoTotal</div>    
+                    </div>
+                    
+                </div>
+            
+            
+                <div class="botaofecharpedido" onclick="mandarWhatsapp()">
+                    <h1>Tudo certo, pode pedir!</h1>
+                </div>
+    
+    
+                <div class="cancelar" onclick="cancelarPedido()">
+                  <h1>Cancelar</h1>
+                </div>
+            
+    
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="topo">
+        <div class="textos">
+            <h1 class="titulo">DrivenEats</h1>
+            <h2 class="subtitulo">Sua comida em 6 minutos</h2>
+        </div>
+    </div>
+
+    <div class="cardapio">
+        <h1>Primeiro, seu prato</h1>
+        <div class="opcoes1" >
+            <div class="carne" onclick="selecionarPrato(this)">
+                
+                <img src="projeto__driven-eats__imagens/pf_carne.jpg" alt="">
+                <h2 class="nomePrato">Carne</h2>
+                <h4>Um pouco de batata, um pouco de salada</h4>
+                <div class="preco">R$ 
+                    <div class="precoValor">15,90</div>
+                </div>
+
+            </div>
+
+            <div class="frango" onclick="selecionarPrato(this)">
+                
+                <img src="projeto__driven-eats__imagens/pf_frango.jpg" alt="">
+                <div class="nomePrato">Frango</div>
+                <h4>Um pouco de batata, um pouco de salada</h4>
+                <div class="preco">R$ 
+                    <div class="precoValor">14,90</div>
+                </div>
+
+            </div>
+
+            <div class="calabresa" onclick="selecionarPrato(this)">
+
+                <img src="projeto__driven-eats__imagens/pf_calabresa.png" alt="">
+                <div class="nomePrato">Calabresa</div>
+                <h4>Um pouco de batata, um pouco de salada</h4>
+                <div class="preco">R$ 
+                    <div class="precoValor">16,90</div>
+                </div>
+                
+
+            </div>
+
+            
+            
+        </div>
+        
+
+        <h1>Agora, sua bebida</h1>
+        <div class="opcoes2" >
+            <div class="coca" onclick="selecionarBebida(this)">
+                
+                <img src="projeto__driven-eats__imagens/coca.png" alt="">
+                <div class="nomePrato">Coca-Cola</div>
+                <h4>Coca-Cola geladinha</h4>
+                <div class="preco">R$ 
+                    <div class="precoValor">7,90</div>
+                </div>
+
+            </div>
+
+            <div class="fanta" onclick="selecionarBebida(this)">
+                
+                <img src="projeto__driven-eats__imagens/fanta.png" alt="">
+                <div class="nomePrato">Fanta</div>
+                <h4>Para ficar fantástico</h4>
+                <div class="preco">R$ 
+                    <div class="precoValor">6,90</div>
+                </div>
+
+            </div>
+
+            <div class="suco" onclick="selecionarBebida(this)">
+                
+                <img src="projeto__driven-eats__imagens/suco.png" alt="">
+                <div class="nomePrato">Suco</div>
+                <h4>Vários sabores</h4>
+                <div class="preco">R$ 
+                    <div class="precoValor">5,90</div>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <h1>Por fim, sua sobremesa</h1>
+        <div class="opcoes3">
+            <div class="brownie" onclick="selecionarSobre(this)">
+                
+                <img src="projeto__driven-eats__imagens/brownie.jpg" alt="">
+                <div class="nomePrato">Brownie</div>
+                <h4>Chocolatoso</h4>
+                <div class="preco">R$ 
+                    <div class="precoValor">9,90</div>
+                </div>
+
+            </div>
+
+            <div class="mouse" onclick="selecionarSobre(this)">
+                
+                <img src="projeto__driven-eats__imagens/mouse.jpg" alt="">
+                <div class="nomePrato">Mousse</div>
+                <h4>Cremoso</h4>
+                <div class="preco">R$ 
+                    <div class="precoValor">8,90</div>
+                </div>
+
+            </div>
+
+            <div class="pudim" onclick="selecionarSobre(this)">
+                
+                <img src="projeto__driven-eats__imagens/pudim.jpg" alt="">
+                <div class="nomePrato">Pudim</div>
+                <h4>O queridinho</h4>
+                <div class="preco">R$ 
+                    <div class="precoValor">7,90</div>
+                </div>
+
+            </div>
+            
+            
+            
+        </div>
+        
+        
+    </div>
+    <div class="inferior">
+        <div class="ret" onclick="fecharPedido()">
+            <div class="textoinf">
+                <h1 class="tituloinf">Selecione os 3 itens para fechar o pedido</h1>
+            </div> 
+        </div>
+        
+        <div class="retfechar" onclick="fecharPedido()">
+            <div class="textoinffechadop">
+                <h1 class="tituloinffechado">Confirmar pedido</h1>
+            </div> 
+        </div>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
